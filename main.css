@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightblue;
+}
+.container{
+    display: flex;
+    border: 3px solid orange;
+    border-radius: 10px;
+    margin: 4.8rem;
+    background: lightgrey;
+}
+.container .partOne img{
+    width: 450px;
+    height: 475px;
+
+}
+.partTwo {
+    padding: 3rem;
+}
+.partTwo h2{
+    color: rgb(88, 88, 88);
+    line-height: 1.4;
+    padding-bottom: 1rem;
+}
+.partTwo p{
+    width: 490px;
+    color: grey;
+    line-height: 1.3;
+}
