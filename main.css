@@ -12,15 +12,17 @@ body{
     border-radius: 10px;
     margin: 4.8rem;
     background: lightgrey;
+    position: relative;
 }
-.container .partOne img{
+.partOne img{
     width: 450px;
-    height: 475px;
+    height: 500px;
 }
 .partTwo {
     padding: 5rem;
 }
 .partTwo h2{
+    width: 490px;
     color: rgb(88, 88, 88);
     line-height: 1.4;
     padding-bottom: 1rem;
@@ -33,15 +35,46 @@ body{
 
 .customer{
     display: flex;
+    justify-content: space-evenly;
     margin-top: 5rem;
 }
 .customer img{
     border-radius: 50%;
-    width: 90px;
+    width: 70px;
+    height: 70px;
 }
 .customer div{
     margin: 1rem;
 }
 .customer div h4, p{
     padding: .3rem;
+}
+.image{
+    position: absolute;
+    top: 22rem;
+    left: 62rem;
+    cursor: pointer;
+}
+.attribution{
+    text-align: center;
+    color: grey;
+    font-size: 15px;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: .5rem 1.7rem;
+    width: 200px;
+    background: rgb(68, 80, 92);
+    color: white;
+    position: absolute;
+    top: 19rem;
+    left: 56rem;
+    display: none;
+}
+
+.social a {
+    padding-left: .9rem;
 }
